@@ -9,6 +9,7 @@ $title = "郵便番号 " . htmlspecialchars($_GET['zipcode']) . " の検索結�
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>PostalcodeGet<?=$title ?></title>
     </head>
     <body>
@@ -30,4 +31,9 @@ $title = "郵便番号 " . htmlspecialchars($_GET['zipcode']) . " の検索結�
         }
         ?>
     </body>
+    <footer>
+        <div id="footer">
+            <small>&copy; Copyright 2018, Akira Hasegawa</small>
+        </div>
+    </footer>
 </html>
